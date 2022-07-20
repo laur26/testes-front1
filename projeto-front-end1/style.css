@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: rgb(160, 156, 156);
+    box-sizing: border-box;
+}
+
+.hero {
+    background-image: url(.//imagens/bg-2.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+}
+
+.hero nav ul {
+    text-align: right;
+    margin: 20px 35px 0 0;
+
+}
+
+.hero nav li {
+    display: inline;
+    list-style: none;
+
+
+
+}
+
+.hero nav a {
+    border: 2px solid white;
+    width: 65px;
+
+    font-size: 20px;
+    padding: 8px;
+    background-color: rgba(67, 67, 68, 0.527);
+    text-transform: none;
+    letter-spacing: 2px;
+
+}
+
+.hero nav a:hover {
+    background-color: rgba(17, 16, 16, 0.521);
+
+}
+
+.hero-content {
+    text-align: center;
+    color: azure;
+    text-size-adjust: 56px;
+    margin-top: 150px;
+
+
+
+}
+
+.hero-content h1 {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px black;
+
+}
+
+.hero-content p {
+
+    display: inline;
+    list-style: none;
+    border: 2px solid white;
+    width: 65px;
+    padding: 10px;
+    background-color: rgba(67, 67, 68, 0.527);
+    text-transform: none;
+    letter-spacing: 2px;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.content-section {
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    overflow: auto;
+   border-top: 1px solid transparent;
+
+
+}
+
+.card p {
+    border-bottom: 2px solid rgb(59, 58, 58);
+    background-color: rgba(49, 47, 47, 0.521);
+    padding: 15px;
+    margin-top: 0;
+
+
+}
+
+.content-section .card {
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+ .card_01,.card_02, .card_03{  margin-left: 2%;}
+
+
+.card img {
+    width: 100%;
+    display: block;
+
+
+}
+
+.content-header {
+    border-bottom: solid 2px rgba(67, 67, 68, 0.527);
+    background: rgba(17, 16, 16, 0.521);
+}
+
+.rodape {
+    height: 160px;
+    background-color: rgba(17, 16, 16, 0.521);
+    color: aliceblue;
+    text-align: center;
+    line-height: 160px;
+    text-shadow: 2px 2px 2px black;
+    clear: left;
+
+}
+
+img{  box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+
+    color: aliceblue;
+
+}
